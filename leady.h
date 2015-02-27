@@ -12,5 +12,6 @@ private:
     int rPwm;
     int gPwm;
     int bPwm;
+    void setRawRGBPWM(int r, int g, int b);
 }
     
