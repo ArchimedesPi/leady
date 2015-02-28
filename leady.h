@@ -1,6 +1,8 @@
 #ifndef __LEADY_H__
 #define __LEADY_H__
 
+#include <Arduino.h>
+
 class LEaDy {
 public:
     LEaDy();
@@ -9,6 +11,11 @@ public:
     void off();
     void onWhite(float intensity);
 private:
+    // -- pin definitions
+    int rPin;
+    int gPin;
+    int bPin;
+    // -- pin statuses
     int rPwm;
     int gPwm;
     int bPwm;
