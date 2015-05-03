@@ -13,7 +13,7 @@ namespace LEaDy {
         int pin;
         int pwm;
         void setRawPWM(int p);
-    }
+    };
     class RGBLED {
     public:
         RGBLED(rPin, gPin, bPin);
@@ -31,6 +31,7 @@ namespace LEaDy {
         int gPwm;
         int bPwm;
         void setRawRGBPWM(int r, int g, int b);
-    }
+    };
 }
     
+#endif
