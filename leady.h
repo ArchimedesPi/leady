@@ -22,15 +22,8 @@ namespace LEaDy {
         void off();
         void onWhite(float intensity);
     private:
-        // -- pin definitions
-        int rPin;
-        int gPin;
-        int bPin;
-        // -- pin statuses
-        int rPwm;
-        int gPwm;
-        int bPwm;
-        void setRawRGBPWM(int r, int g, int b);
+        // individual internal die "leds"
+        LED r, g, b; 
     };
 
     // CIE1931 correction table
