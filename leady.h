@@ -32,10 +32,10 @@ namespace LEaDy {
         int bPwm;
         void setRawRGBPWM(int r, int g, int b);
     };
-    
+
     // CIE1931 correction table
     // Automatically generated
-    const unsigned char cie[1025] = {
+    const unsigned char PROGMEM cie[1025] = {
     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
     0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 
     1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
