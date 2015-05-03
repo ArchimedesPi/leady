@@ -11,8 +11,7 @@ namespace LEaDy {
         void off();
     private:
         int pin;
-        int pwm;
-        void setRawPWM(int p);
+        void setRawPWM(int pwm);
     };
     class RGBLED {
     public:
