@@ -1,7 +1,7 @@
 #include "leady.h"
 
 
-namespace LEaDy {
+namespace Leady {
 	LED::LED(int pin) {
 		this->pin = pin;
 	}
